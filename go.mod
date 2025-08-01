@@ -1,8 +1,6 @@
 module github.com/septianw/fleetmon
 
-go 1.22.2
-
-toolchain go1.22.11
+go 1.23.0
 
 require (
 	github.com/eclipse/paho.mqtt.golang v1.5.0
@@ -12,6 +10,6 @@ require (
 
 require (
 	github.com/gorilla/websocket v1.5.3 // indirect
-	golang.org/x/net v0.27.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
 	golang.org/x/sync v0.10.0 // indirect
 )
